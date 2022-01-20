@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/*Aqui iremos declarar  as variaveis dentro do root do documento*/
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+body {
+  background: black;
+  font-family: "Arial";
+  color: white;
+  max-width: 1400px;
+}
+header {
+  display: flex;
+}
+header .container .logo {
+  width: 120px;
+  height: 48px;
+  background: transparent;
+  margin-left: 30px;
+}
+header .container nav{
+    display:flex;
+}
+header .container nav .boxImg span {
+  position: absolute;
+  top: 10px;
+  margin-left: 50px;
+  display: flex;
+  
+  font-weight: 600;
+}
+header .container nav .boxImg{
+  margin-right: 110px;
+}
+header .container nav .boxImg span i {
+  margin-left: 13px;
+  cursor: pointer;
+}
+header .container nav .imgBox {
+  background-color: aqua;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+}
+header .container nav .imgBox img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin: 10px;
+  padding: 25px;
+}
+header nav a:hover {
+  color: #fff;
+}
+header .container {
+  padding: 12px 0 8px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  position: absolute;
+}
+header .container .boxSearch {
+    border:none;
+    outline: none;
+    position: relative;
+    top:10px;
+    margin-right: 20px;
+}
+header .container .boxSearch i{
+    font-size: 19px;
+    cursor: pointer;
+    font-weight: bold;
+}
+header .boxSearch input{
+    display: none;
+}
+header .container .boxSearch input.searchBox{
+     display: normal;
+    width: 100px;
+    background: black;
+}
+header .container .logo2{
+  display: none;
+}
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 1) 100%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(https://www.themoviedb.org/t/p/original/mLKN1dsimKPiXCZ48KED0X8a02t.jpg);
+  width: 100%;
+  height: 535px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.filme-principal .descricao {
+  font-size: 13px;
+  margin-bottom: 11px ;
+}
+.filme-principal .titulo {
+  margin-top: 13%;
+  font-size: 34px;
+  font-family: "Arial";
+}
+.filme-principal .container .info-serie{
+    display: block;
+    padding: 11px 0 11px 0 ;
+    color: #aaa;
+    font-size: 13px;
+}
+.filme-principal .container .info-serie .maior{
+    border: 1px solid #aaa;
+    padding: 1px 6px;
+    font-size: 14px;    
+    margin:0 2px;
+}
+.filme-principal .jojoImg {
+  display: none;
+}
+.filme-principal .container .info-serie .sticky{
+    margin: 0 6px;
+    font-weight: 900;
+}
+.owl-dots {
+  display: none;
+}
+.botoes{
+  display: flex;
+}
+.play-serie a{
+  color: black;
+}
+.botao {
+  background-color: rgba(169, 170, 179, 0.2);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 8px 23px;
+  margin: 11px 15px 0 0 ;
+  font-size: 12px;
+  border-radius: 4px;
+  width: 170px;
+}
+.botao:nth-child(2) {
+  background: white;
+  color: black;
+  font-weight: 700;
+}
+.botao:nth-child(2):hover {
+  color: black;
+  background-color: #ccc;
+}
+.botoes button:nth-child(1){
+  display: none;
+}
+.botao i {
+  margin-right: 5px;
+}
+.filme-principal .container {
+    margin-top: 2.5%;
+  width: 70%;
+  margin-left: 70px;
+}
+.filme-principal .container img{
+    width:480px;
+    height: 90px;
+}
+
+.carossel-filmes {
+  margin: 0 0 0 15px;
+}
+.box-filme {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.carossel-filmes .netflix-title {
+  margin: 40px 0 15px 0;
+}
+.carossel-filmes .netflix-title h1 {
+  font-size: 22px;
+}
+
+.um{
+  display: none;
+}
+.displayOn{
+  margin-top: 5%;
+  height: 80vh;
+  width: 700px;
+  background-color: #141414;
+  z-index: 1000;
+  position: absolute;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

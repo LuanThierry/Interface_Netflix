@@ -1,0 +1,179 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:726px){
+    body{
+        margin:0;
+        padding: 0;
+        width: 100%;
+    }
+    main{
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    main header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    main header .container nav{
+        justify-content: space-between;
+    }
+    main header .container .logo{
+        display:none;
+    }
+    main header .container .logo2{
+        display:flex;
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+        margin-right: 0;
+    }
+    main header .container{
+        flex-direction: row;
+        display: flex;
+        margin: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    main header .container nav{
+        padding: 0 15px;
+        margin: 0;
+        width: 100%;
+    }
+    .main header .container .boxSearch{
+        justify-content: space-between;
+    }
+    main header .container .boxImg{
+        float: right;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+    main header .container .boxImg .imgBox {
+        background-color: transparent;
+        height: 35px;
+        width: 35px;
+    }
+    main header .container .boxImg .imgBox  img{
+        border-radius: 5px;
+    }
+    main header .container .boxImg .imgBox span{
+        display: none;
+    }
+    main .filme-principal .container .info-serie{
+        font-size:9px;
+    }
+    .filme-principal {
+        background: none;
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .filme-principal .container{
+        margin: 20px 0 0 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .filme-principal .container .descricao{
+        display: none;
+    }
+    .filme-principal .jojoImg{
+        width:150px;
+        height: 240px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 0 0 0;
+        border-radius: 4px;
+    }
+    .filme-principal .jojoImg img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .filme-principal .container .titulo img{
+        display: none;
+    }
+    .filme-principal .container .titulo{
+        font-size: 12px;
+        margin: 0;
+    }
+    .filme-principal .container .titulo{
+        display: none;
+    }
+    .filme-principal .container .info-serie{
+        display: none;
+    }
+    .botoes{
+        display: flex;
+        margin-top: 30px;
+    }
+    .botoes .info{
+        font-weight: 200;
+        color: white;
+    }
+    .botoes .info i{
+        font-size: 11px;
+    }
+    .maior{
+        display :none;
+    }
+    .sticky{
+        height: 2px;
+    }
+    .botoes button:nth-child(1){
+        display: block;
+      }
+    .sticky:nth-child(1){
+        display: none;
+    }
+    .botao{
+        margin: 0;
+        font-size: 10px;
+        display: inline;
+        width: 80px;
+        font-weight: bold;
+    }
+    .play-serie{
+        margin: 0;
+        width: 77px;
+        padding: 3px 9px;
+    }
+    .info{
+        margin: 0;
+        padding: 3px 9px;
+
+        background: transparent;
+    }
+    .netflix-title{
+        margin: 0 0;
+    }
+    .box-filme{
+        border-radius: 4px;
+    }
+}
